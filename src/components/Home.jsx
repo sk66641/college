@@ -19,7 +19,7 @@ const Home = () => {
           {lab6Questions.map((q, index) => (
             <li key={index}>
               <Link
-                to={q.path}
+                to={q.path} target='_blank'
                 className="flex items-center justify-between px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-100 transition"
               >
                 {q.label}
